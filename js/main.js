@@ -15,5 +15,8 @@ const MyTable = {
   }
 }
 
+const oldPriceName =  "oldPrice";
 
-console.log(MyTable.characters);
+MyTable[oldPriceName] = 2200;
+
+console.log(MyTable.oldPrice);
